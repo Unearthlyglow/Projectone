@@ -1,0 +1,259 @@
+body {background-color: rgb(51, 114, 165);}
+body {background-image: url(/Pictures/painting.jpg);
+background-color: #1c3f6e; 
+background-position: center; 
+background-repeat: repeat; 
+background-size: cover; 
+}
+
+
+body {
+  width: 90%;
+  max-width: 1366px;
+  margin: 2em auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-image: url(/Pictures/greyscale.jpg);
+    background-position: center; 
+    background-repeat: repeat; 
+    background-size: cover; 
+    
+  }
+
+  .container > div {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+
+  .simple h1 {
+    color: rgb(235, 212, 6);
+    font-size: 7rem;
+  }
+  
+  .simple hr{
+    color: red;
+    height: 8px;
+    border: solid 7px;
+  }
+
+  .eye {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+
+  .about > img {
+  
+    object-fit: cover;
+    max-width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px solid rgb(219, 190, 24);
+  }
+
+
+  .home > img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    max-height: 100%;
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px solid rgb(219, 190, 24);
+  }
+
+
+  .music > img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    max-height: 100%;
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px solid rgb(210, 2, 2);
+  }
+
+  .video > img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    max-height: 100%;
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px solid rgb(219, 190, 24);
+  }
+
+  .writing > img {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    max-height: 100%;
+    border-radius: 5px;
+    padding: 17px;
+    border: 2px solid rgb(219, 190, 24);
+  }
+
+.navlogo {
+  width: 80%;
+    height: 80%;
+}
+
+  .border {
+    grid-column: 1 / 7;
+    grid-row: 2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(71, 20, 20, 0.76);
+    border: 20px solid rgb(219, 190, 24);
+    width: 95%;
+    height: auto;
+  }
+
+  .border p{
+    color: rgb(255, 254, 251);
+  }
+
+.borderleft{
+  grid-column: 1;
+  grid-row: 2;
+  object-fit: cover;
+  padding-top: 20px;
+  width: 20%;
+  max-height: 20%;
+}
+
+  .contentpic {
+    grid-column: 1 / 7;
+    grid-row: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+
+.paragraphpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+  .contenttext {
+    grid-column: 1 / 7;
+    grid-row: 3;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(238, 236, 241);
+    border: 17px solid rgb(219, 190, 24);
+  }
+
+  .paragraphpic strong{
+    text-align: center;
+  }
+
+
+  .footer1 {
+    grid-column: 1;
+    grid-row: 4;
+    font-weight: bold;
+    color: rgb(255, 254, 251);
+  }
+
+  .footer2 {
+    grid-column: 2;
+    grid-row: 4;
+    font-weight: bold;
+    color: rgb(255, 254, 251);
+  }
+
+  .footer3 {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .footer3 img {
+    width: 100%;
+    max-height: 100%;
+  }
+
+
+  .footer4 {
+    grid-column: 4;
+    grid-row: 4;
+    font-weight: bold;
+    color: rgb(255, 254, 251);
+  }
+
+  .footer5 {
+    grid-column: 5;
+    grid-row: 4;
+    font-weight: bold;
+    color: rgb(255, 254, 251);
+  }
+
+  .footer6 {
+    grid-column: 6;
+    grid-row: 4;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(186, 2, 2);
+  }
+
+  .borderfoot {
+  grid-column: 1/7;
+  grid-row: 5;
+  background-color: rgb(71, 20, 20);
+  height: auto;
+  width: 100;
+}
+
+  .textunderfoot {
+    grid-column: 1/7;
+    grid-row: 5;
+    color: rgb(250, 214, 5);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: .8rem;
+  }
+
+/* Media Queries + Responsive Items */
+
+/*Responsive Work*/
+html { font-size:100%; }
+img { max-width: 100%; height: auto; }
+
+
+ /* Extra small devices (phones, 600px and down) 
+ @media only screen and (max-width: 600px) {...}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) 
+ @media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) 
+ @media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) 
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) 
+ @media only screen and (min-width: 1200px) {...} 
+
+ @media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}
